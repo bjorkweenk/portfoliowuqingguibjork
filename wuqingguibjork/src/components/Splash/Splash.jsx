@@ -1,10 +1,12 @@
 import React from 'react'
 import './Splash.css'
 
-export default function Splash(){
-    return(
+import { Link } from "react-router-dom"
+
+export default function Splash() {
+    return (
         <div>
-            <h1> hai </h1>
+            <h1> hi </h1>
         </div>
     )
 }
