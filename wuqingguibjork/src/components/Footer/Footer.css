@@ -3,7 +3,46 @@ footer {
     bottom: 0;
     left: 0 ; 
     background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(247,247,240,0.5) 99%, rgba(245,244,222,0.5) 10%);
-    height : 100px;  
+    height : 140px;  
     width: 100%;
     text-align: center; 
+    padding-top: 10px;   
 }
+span {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/*icons*/
+
+.icon-list{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
+
+.list {
+    margin-right: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
+}
+
+i:hover {
+    color: #12746c;
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+

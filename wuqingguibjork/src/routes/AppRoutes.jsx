@@ -5,6 +5,7 @@ import Splash from '../components/Splash/Splash';
 import Home from '../components/Home/Home';
 import Work from '../components/Work/Work';
 import Contact from '../components/Contact/Contact';
+import About from '../components/About/About';
 
 const AppRoutes = () => {
     return (
@@ -13,6 +14,7 @@ const AppRoutes = () => {
             <Route path="home" element={<Home />} />
             <Route path="work" element={<Work />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="about" element={<About/>}/>
         </Routes>
     )
 }

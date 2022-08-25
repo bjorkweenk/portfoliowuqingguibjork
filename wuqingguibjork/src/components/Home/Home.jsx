@@ -1,12 +1,17 @@
 import React from 'react'
 import './Home.css'
 
+import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
+
 export default function Home() {
     return (
         <div>
+            <Navbar/>
             <div id="Home">
                 <div className='Name1'>
                     <h1> WU <br></br> QINGGUI </h1>
+                    <hr className='hr'/>
                 </div>
                 <div class="image">
                     <img class="flower" src="../flower.png" height={350} width={350} />
@@ -18,9 +23,12 @@ export default function Home() {
                     </div>
                 <div className='Name' >
                     <h1> BJORK WEENK </h1> 
-                    <p> "After working in the hospitality sector, <br></br> I have decided to explore the wonderful world called Web Development. I am loving it!"</p>
+                    <hr/>
+                    <br></br>
+                    <p> "After working in the hospitality sector, I have decided to explore the wonderful world called Web Development. I am loving it!"</p>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
