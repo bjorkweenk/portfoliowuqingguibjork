@@ -18,6 +18,7 @@ export default function Home() {
                     </div>
                 <div className='Name' >
                     <h1> BJORK WEENK </h1> 
+                    <p> "After working in the hospitality sector, <br></br> I have decided to explore the wonderful world called Web Development. I am loving it!"</p>
                 </div>
             </div>
         </div>
