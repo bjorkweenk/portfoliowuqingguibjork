@@ -4,33 +4,55 @@ import './About.css'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 
-export default function About(){
-    return(
+export default function About() {
+    return (
         <div>
-            <Navbar/>
+            <Navbar />
 
-           <div className='image-name'>
-            <div className='image1'>
-            <h2 id="name"> WU QINGGUI</h2>
-           </div>
-           <h2 id="name2"> BJORK WEENK</h2>
-           <p id="intro"> Hi, Welcome! <br></br><br></br>
-            Waking up with a little breeze, some sunshine and a cup of coffee in my hand. <br></br>
-            I would say that would be my perfect start of the day. I dislike wet socks and if there is not a new challenge. <br></br><br></br> Walking in the mountain, inline skating in the park or sweating in the gym. All those activities will give me a smile. <br></br><br></br>
-            Getting to know new people, new developing skills and new countries will make me enthusiastic. <br></br>
-            and last but not least being surrounded by the people I love & doing a job that challenge me, is my key to happiness. 
-            <br></br><br></br>
-            Nice to meet you! <br></br>
-            Kind regards, 
-           </p>
+            <div className='image-name'>
+                <div className='image1'>
+                    <h2 id="name" > WU QINGGUI</h2>
+                </div>
+                <h2 id="name2"> BJORK WEENK</h2>
 
-           <div className='countries'> 
-            <div className='square'> <video className='square' src="movie.MOV" controls></video></div>
-            <div className='square'></div>
-            <div className='square'></div>
-           </div>
-            </div> 
-            <Footer/>
+
+                <p id="intro"> Hi, Welcome! <br></br><br></br>
+                    Waking up with a little breeze, some sunshine and a cup of coffee in my hand. <br></br>
+                    I would say that would be my perfect start of the day. I dislike if there is not a new challenge and wet socks <br></br><br></br> Walking in the mountain, inline skating in the park or sweating in the gym. All those activities will give me a smile. <br></br><br></br>
+                    Getting to know new people, developing new skills and exploring new countries will make me enthusiastic. <br></br>
+                    and last but not least being surrounded by the people I love & doing a job that challenges me, is my key to happiness.
+                    <br></br><br></br>
+                    Nice to meet you! <br></br>
+                    Kind regards,
+                </p>
+            </div>
+            <div id="world"><img src="https://mb.fqcdn.nl//square3410ng/3262267/.jpg" width={900} height={900}></img>
+                <div class="Netherlands">
+                    <div class="NL">
+                    I grew up in the Netherlands and I have lived in Amsterdam, Nijmegen, Zaandam, Eindhoven and Tilburg. 
+                        <img className='img-in' src="https://images.unsplash.com/photo-1584352703598-7e6f2bbaf77c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width={300} height={200}></img>
+                    </div>
+                </div>
+
+                <div class="Spain">
+                    <div class="ES">  In 2018, I had a 5-week holiday, decided to travel to Spain.. started in Valencia and stayed for the full 5 weeks. 2 Months later I decided to have a one way ticket. The adventure began and still now , I live in this beautiful city. 
+                        <img className='img-in' src="https://images.unsplash.com/photo-1595242797386-d1405ae6dc77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width={280} height={200}></img></div>
+                </div>
+
+                <div class="China">
+                    <div class="CH">
+                       In 1994 I was born in China and a couple years later I've been lucky enough to be adopted by the most amazing family. 
+                        <video src="movie.MOV" width={300} height={300} controls muted controlsList="nodownload"></video>
+                    </div>
+                </div>
+            </div>
+          
+
+
+
+
+
+            <Footer />
         </div>
     )
 }
