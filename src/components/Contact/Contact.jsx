@@ -31,10 +31,7 @@ export const Contact = () => {
 <div id="body-contact">
 <div className='image-name'>
                 <div className='image11'>
-                    <h2 id="name1" > LET'S CONNECT</h2>
                 </div>
-                <h2 id="name21"> CONTACT </h2>
-
     </div>
   
     <form ref={form} onSubmit={sendEmail}>

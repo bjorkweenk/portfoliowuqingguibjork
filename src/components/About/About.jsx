@@ -26,7 +26,7 @@ export default function About() {
                     Kind regards,
                 </p>
             </div>
-            <div id="world"><img src="https://mb.fqcdn.nl//square3410ng/3262267/.jpg" width={900} height={900}></img>
+            <div id="world"><img src="../worldmap2.png" width={900} height={600}></img>
                 <div class="Netherlands">
                     <div class="NL">
                         I grew up in the Netherlands and I have lived in Amsterdam, Nijmegen, Zaandam, Eindhoven and Tilburg.

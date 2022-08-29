@@ -1,0 +1,18 @@
+
+  
+  .item {
+    width: 80%;
+    height: 1200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+    background: rgb(233,233,233);
+    background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(18,116,108,1) 98%, rgba(18,116,108,1) 98%);
+  }
+
+  div .App {
+    background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(247,247,240,0.5) 99%, rgba(245,244,222,0.5) 10%);
+  }

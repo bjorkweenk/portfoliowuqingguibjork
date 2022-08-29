@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row;
     padding: 20;
+    background: rgb(233,233,233);
+        background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(18,116,108,0.5) 84%, rgb(144, 198, 193, 0.5) 99%);
 }
 .image-name {
     width: 100%;
@@ -11,7 +13,7 @@
 }
 
 .image1 {
-    background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+    background-image: url("../../../public/china2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;  
@@ -52,7 +54,7 @@
 /* world */
 #world {
     position: absolute;
-    top: 600px; 
+    top: 800px; 
     left: 550px;
     z-index : 5;
 }
@@ -80,11 +82,12 @@
 
   .Netherlands {
     position: absolute;
-    top : 340px; 
-    left: 430px; 
+    top : 110px; 
+    left: 390px; 
     width: 20px;
     height: 20px;
-    background-color: black;
+    background-color: grey;
+    border:2px solid black; 
     border-radius: 50%;
   }
 
@@ -113,11 +116,13 @@
 
   .Spain {
     position: absolute;
-    top : 390px; 
-    left: 405px; 
+    top : 170px; 
+    left: 365px; 
     width: 20px;
     height: 20px;
-    background-color: black;
+    background-color: grey;
+    border: 2px solid black;
+
     border-radius: 50%;
   }
 
@@ -146,11 +151,12 @@
 
   .China {
     position: absolute;
-    top : 390px; 
-    left: 705px; 
+    top : 190px; 
+    left: 665px; 
     width: 20px;
     height: 20px;
-    background-color: black;
+    background-color: grey;
+    border: 2px solid black; 
     border-radius: 50%;
   }
 

@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer'
 
 export default function Home() {
     return (
-        <div>
+        <>
             <Navbar/>
             <div id="Home">
                 <div className='Name1'>
@@ -25,10 +25,10 @@ export default function Home() {
                     <h1> BJORK WEENK </h1> 
                     <hr/>
                     <br></br>
-                    <p> "After working in the hospitality sector, I have decided to explore the wonderful world called Web Development. I am loving it!"</p>
+                    <p className='intro-name'> "After working in the hospitality sector, I have decided to explore the wonderful world called Web Development. I am loving it!"</p>
                 </div>
             </div>
             <Footer/>
-        </div>
+        </>
     )
 }

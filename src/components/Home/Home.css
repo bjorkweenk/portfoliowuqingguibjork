@@ -6,6 +6,7 @@
     margin-top: 5%;
 }
 
+
 #Home {
     display: flex;
     flex-direction: row;
@@ -13,7 +14,9 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 300px;
+    padding-bottom: 300px;
+    background: rgb(233,233,233);
+        background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(18,116,108,0.5) 84%, rgb(144, 198, 193, 0.5) 99%);
 }
 
 /* text and name*/
@@ -43,10 +46,11 @@ h1 {
 
 
 
+
 /*hr lines*/
 hr {
     background-color: rgb(20, 33, 61, 1);
-    color: white;
+    border: black ;
     width: 100%;
     height: 1px;
     text-align: center;
@@ -55,6 +59,10 @@ hr {
     animation-iteration-count: 1;
     z-index: 2;
     margin-left: 15px;
+}
+
+.intro-name {
+    font-size: 25px;
 }
 
 @keyframes index-item1 {
