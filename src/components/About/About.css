@@ -22,7 +22,7 @@
 #name {
     color: black;
     transform: rotate(-90deg);
-    margin-top: 300px;
+    margin-top: 500px;
     font-size: 50px;
     text-overflow: ellipsis;
     white-space: nowrap;   
@@ -30,7 +30,7 @@
 
 #name2 {
     position: absolute;
-    top: 520px;
+    top: 720px;
     left: 78px;
     font-size: 50px;
 }
@@ -38,7 +38,9 @@
 #intro {
     margin-top: 40px;
     margin-left: 40px;
-    color: color ; 
+    font-size: 30px;
+    width: 100%;
+    z-index: 4;
 }
 
 
@@ -51,21 +53,21 @@
 #world {
     position: absolute;
     top: 600px; 
-    left: 400px;
-    z-index : 1; 
+    left: 550px;
+    z-index : 5;
 }
 
 .NL {
     display: none;
     background-color: #12746c;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 440px;
     position: absolute;
     top: 0px ; 
     left: 10px; 
     padding: 20px;
-    z-index: 3;
-    font-size: 15px;
+    z-index: 5;
+    font-size: 20px;
     color: white;
     border-radius: 10px;
   }
@@ -91,14 +93,14 @@
 .ES {
     display: none;
     background-color: #12746c;
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     position: absolute;
     top: 0px ; 
     left: 10px; 
     padding: 20px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     z-index: 3;
     border-radius: 10px;
   }
@@ -123,15 +125,15 @@
   
   .CH {
     display: none;
-    background-color:#12746c;
-    width: 300px;
-    height: 400px;
+    background-color: #12746c;
+    width: 400px;
+    height: 500px;
     position: absolute;
     top: 0px ; 
     left: 10px; 
-    font-size: 15px;
+    font-size: 20px;
     padding: 20px;
-    z-index: 3;
+    z-index: 5;
     color: white;
     border-radius: 10px;
   }
@@ -154,6 +156,109 @@
 
   .img-in {
     margin-top: 10px;
+    border-radius: 20%;
+    align-items: center;
+    margin-left: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  .img-inn {
+    margin-top: 10px;
+    border-radius: 20%;
+    align-items: center;
+    margin-left: 35px;
+  }
+
+  #airplane {
+    position: absolute;
+    top : 0 ; 
+    left: 20px;
+    animation: airplane 10s linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    cursor: pointer ; 
+    transform: rotate(45deg);
+    z-index: 1;
   }
 
 
+  @keyframes airplane {
+  10% {
+      top : 10px;
+      z-index: 5;
+      
+    }
+    20% { 
+       top : 30px ;
+       left: 50px; 
+
+       
+    }
+
+    30% { 
+      top : 80px ;
+      left: 70px; 
+     
+     
+  }
+
+  40% { 
+    top : 80px ;
+    left: 90px; 
+  
+   
+}
+
+50% { 
+  top : 90px ;
+  left: 150px; 
+ 
+}
+60% { 
+  top : 110px ;
+  left: 200px; 
+ 
+ 
+}
+70% { 
+  top : 120px ;
+  left: 250px; 
+  
+ 
+}
+80% { 
+  top : 130px ;
+  left: 350px; 
+ 
+ 
+}
+
+90% { 
+  top : 140px ;
+  left: 500px; 
+ 
+ 
+}
+
+100% {
+  top : 150px ;
+  left: 1050px;
+  transform: rotateX(20deg);
+  opacity: 1.0; 
+  height: 300px;
+  width: 300px;
+}
+
+}
+
+.intro-work {
+  width: 800px;
+  height: 200px;
+  position: absolute;
+  top: 800px;
+  left: 1800px;
+  z-index: 6;
+  font-size: 30px;
+}

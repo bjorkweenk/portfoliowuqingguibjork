@@ -29,25 +29,29 @@ export default function About() {
             <div id="world"><img src="https://mb.fqcdn.nl//square3410ng/3262267/.jpg" width={900} height={900}></img>
                 <div class="Netherlands">
                     <div class="NL">
-                    I grew up in the Netherlands and I have lived in Amsterdam, Nijmegen, Zaandam, Eindhoven and Tilburg. 
-                        <img className='img-in' src="https://images.unsplash.com/photo-1584352703598-7e6f2bbaf77c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width={300} height={200}></img>
+                        I grew up in the Netherlands and I have lived in Amsterdam, Nijmegen, Zaandam, Eindhoven and Tilburg.
+                        <img className='img-in' src="https://images.unsplash.com/photo-1584352703598-7e6f2bbaf77c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width={340} height={300}></img>
                     </div>
                 </div>
 
                 <div class="Spain">
-                    <div class="ES">  In 2018, I had a 5-week holiday, decided to travel to Spain.. started in Valencia and stayed for the full 5 weeks. 2 Months later I decided to have a one way ticket. The adventure began and still now , I live in this beautiful city. 
-                        <img className='img-in' src="https://images.unsplash.com/photo-1595242797386-d1405ae6dc77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width={280} height={200}></img></div>
+                    <div class="ES">  In 2018, I had a 5-week holiday, decided to travel to Spain.. started in Valencia and stayed for the full 5 weeks. 2 Months later I decided to have a one way ticket. The adventure began and still now , I live in this beautiful city.
+                        <img className='img-in' src="https://images.unsplash.com/photo-1595242797386-d1405ae6dc77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width={360} height={200}></img></div>
                 </div>
 
                 <div class="China">
                     <div class="CH">
-                       In 1994 I was born in China and a couple years later I've been lucky enough to be adopted by the most amazing family. 
-                        <video src="movie.MOV" width={300} height={300} controls muted controlsList="nodownload"></video>
+                        In 1994 I was born in China and a couple years later I've been lucky enough to be adopted by the most amazing family.
+                        <video className='img-inn' src="movie.MOV" width={320} height={320} controls muted controlsList="nodownload"></video>
                     </div>
                 </div>
             </div>
-          
 
+            <div id="airplane"><a href="./work"> <img id='airplane' src="./airplane.png" width={220} height={220}></img> </a></div>
+
+            <p className='intro-work'>
+                " After working in the hospitality sector, I have decided to explore the wonderful world called Web Development. I am loving it!
+                During Covid19 and being stuck at my house, I started following different webinars. When I followed the free webinar of SheCodes, I was sold. From that moment I knew I wanted to continue with my journey of coding."</p>
 
 
 
