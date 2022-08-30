@@ -22,14 +22,41 @@
 
 /*line*/
 
+#welcome 
+{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200; 
+}
+
 #hello {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    animation: flip 5s;
-  
 }
+
+  #hello:after {
+    content:"";
+    animation: hello 8s linear infinite;
+    font-size: 120px;
+    font-family: 'Staatliches', sans-serif;
+  }
+
+  @keyframes hello {
+    0% { content:" HELLO"; }
+    10% { content:"HOLA"; }
+    20% { content:"HI"; }
+    30% { content:"HALLO"; }
+    40% { content:"CIAO"; }
+    50% { content: "Здравейте "; }
+    60% { content: "HEJ"; }
+    70% { content: "ハロー "; }
+    80% { content: "Bună ziua "; }
+    90% { content: "你好"; }
+  }
 
 
 /*arrow*/

@@ -8,15 +8,13 @@ export default function Splash() {
     return (
         <div className='background'>
         <div className="item1">
-            <div className="lines"> 
-            <div className='line'> </div>
-            <div className='line1'> </div>
-            <div className='line2'> </div>
-           
-            <h1 id="hello"> HELLO </h1>
+            <h1><span id="hello"></span>
+            <br></br>
+            <h3 id="welcome"> Nice to see you here!</h3></h1>
+        
            <a href="./home"><img className='arrow' src="../next.png" alt="arrow" width={30} height={30}/></a>
              </div>
         </div>
-        </div>
+      
     )
 }

@@ -18,7 +18,7 @@ export default function About() {
 
                 <p id="intro"> Hi, Welcome! <br></br><br></br>
                     Waking up with a little breeze, some sunshine and a cup of coffee in my hand. <br></br>
-                    I would say that would be my perfect start of the day. I dislike if there is not a new challenge and wet socks <br></br><br></br> Walking in the mountain, inline skating in the park or sweating in the gym. All those activities will give me a smile. <br></br><br></br>
+                    I would say that would be my perfect start of the day. I dislike if there is not a new challenge. <br></br><br></br> Walking in the mountain, inline skating in the park or sweating in the gym. All those activities will give me a smile. <br></br><br></br>
                     Getting to know new people, developing new skills and exploring new countries will make me enthusiastic. <br></br>
                     and last but not least being surrounded by the people I love & doing a job that challenges me, is my key to happiness.
                     <br></br><br></br>
@@ -35,13 +35,13 @@ export default function About() {
                 </div>
 
                 <div class="Spain">
-                    <div class="ES">  In 2018, I had a 5-week holiday, decided to travel to Spain.. started in Valencia and stayed for the full 5 weeks. 2 Months later I decided to have a one way ticket. The adventure began and still now , I live in this beautiful city.
+                    <div class="ES">  In 2018, I had a 5-week holiday, I decided to travel to Spain.. started in Valencia and stayed for the full 5 weeks. 2 Months later I decided to buy a one way ticket. The adventure began and still now , I live in this beautiful city.
                     <video className='img-inn' src="vlc.mp4" width={320} height={320} controls muted controlsList="nodownload"></video></div>
                 </div>
 
                 <div class="China">
                     <div class="CH">
-                        In 1994 I was born in China and a couple years later I've been lucky enough to be adopted by the most amazing family.
+                        In 1994 , I was born in China and a couple years later I've been lucky enough to be adopted by the most amazing family.
                         <video className='img-inn' src="movie.MOV" width={320} height={320} controls muted controlsList="nodownload"></video>
                     </div>
                 </div>

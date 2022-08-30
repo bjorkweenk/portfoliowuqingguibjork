@@ -11,7 +11,7 @@ const Footer = () => {
             <footer>
                     <div className="img">
                        <a href="./home"> <img className="logo-img" src='../logobw.png' width={50} height={50}></img></a>
-                        <span className="rights"> All rights Bjork Weenk © </span>
+                        <span className="rights"> All rights Bjork Weenk 2022© </span>
                     </div>
                     <div className="list">
                         <ul>

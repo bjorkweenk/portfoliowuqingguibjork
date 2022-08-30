@@ -25,7 +25,7 @@ export default function Home() {
                     <h1> BJORK WEENK </h1> 
                     <hr/>
                     <br></br>
-                    <p className='intro-name'> "After working in the hospitality sector, I have decided to explore the wonderful world called Web Development. I am loving it!"</p>
+                    <p className='intro-name'> "After working in the hospitality sector, I have decided to explore the wonderful world called Web Development."</p>
                 </div>
             </div>
             <Footer/>

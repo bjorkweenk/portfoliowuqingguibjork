@@ -22,7 +22,7 @@ export default function Work() {
                         <h3 className='project'> Skills <span className='outline'> 2022</span></h3>
                     </div>
                     <div className='line2-a'>
-                        <h5 className='title-a'> 2020 - SheCodes Introduction course Coding <br></br> 2022 - Ironhack Bootcamp Full stack Web Development <br></br> 2022 - Brainnest Course Front End Development </h5>
+                        <h5 className='title-a'> 2020 - SheCodes Introduction course Coding <br></br> 2022 - Iron hack Bootcamp Full stack Web Development <br></br> 2022 - Brainnest Course Front End Development </h5>
                     </div>
                     <div className='line3'></div>
                     <div className='line-4'></div>
