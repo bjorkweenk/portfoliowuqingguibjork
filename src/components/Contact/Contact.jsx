@@ -37,11 +37,11 @@ export const Contact = () => {
     <form ref={form} onSubmit={sendEmail}>
     <h2 className='coffee'> COFFEE ? </h2>
       <label>Name</label>
-      <input type="text" name="user_name" placeholder='name' />
+      <input spellcheck="true" type="text" name="user_name" placeholder='name' />
       <label>Email</label>
-      <input type="email" name="user_email" placeholder='e-mail'/>
+      <input spellcheck="true" type="email" name="user_email" placeholder='e-mail'/>
       <label>Message</label>
-      <textarea name="message" placeholder='Coffee?' width={200} heigth= {200} />
+      <textarea spellcheck="true" name="message" placeholder='Coffee?' width={200} heigth= {200} />
       <input type="submit" value="Send" />
     </form>
     </div>

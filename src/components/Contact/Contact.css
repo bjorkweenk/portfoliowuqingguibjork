@@ -1,5 +1,5 @@
 form {
-
+    background-color:#12746ca6 ;
     color: black;
     height: 1000px;
     width: 1000px;
@@ -13,12 +13,13 @@ form {
     align-content: stretch;
     position: absolute;
     top: 50px;
-
+  box-shadow: 10px 10px 10px #000;
+   
 }
 
 input[type="text"] {
     background-color: #f4f4ff;
-    color: #C5C5C5;
+    color: black;
     font-style: italic;
     font-size: 20px;
     border-style: none;
@@ -37,7 +38,7 @@ input[type="text"] {
 
 input[type="email"] {
     background-color: #f4f4ff;
-    color: #C5C5C5;
+    color: black; 
     font-style: italic;
     font-size: 20px;
     border-style: none;
@@ -77,6 +78,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: pink;
     color: white;
+    cursor:url("../../../public/sm-logo.png"), default;
 }
 
 
@@ -98,8 +100,8 @@ label {
 }
 
 textarea {
-    background-color: #f4f4ff;
-    color: #C5C5C5;
+    background-color:#f4f4ff;
+    color: black;
     font-style: italic;
     font-size: 20px;
     border-style: none;

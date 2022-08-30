@@ -4,14 +4,14 @@
     font-family: 'Saira Semi Condensed', sans-serif;
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 50px;
+    padding: 60px 60px;
     background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(247,247,240,0.5) 99%, rgba(245,244,222,0.5) 10%);
 }
 
@@ -33,7 +33,7 @@ header li {
     top: 0;
     left: 0;
     margin-left: 50px;
-    margin-top: 15px;
+    margin-top: 30px;
     font-size: 1.5em;
 }
 

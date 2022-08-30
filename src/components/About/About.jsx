@@ -30,13 +30,13 @@ export default function About() {
                 <div class="Netherlands">
                     <div class="NL">
                         I grew up in the Netherlands and I have lived in Amsterdam, Nijmegen, Zaandam, Eindhoven and Tilburg.
-                        <img className='img-in' src="https://images.unsplash.com/photo-1584352703598-7e6f2bbaf77c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width={340} height={300}></img>
-                    </div>
+                        <video className='img-inn' src="nl.mp4" width={320} height={320} controls muted controlsList="nodownload"></video></div>
+                 
                 </div>
 
                 <div class="Spain">
                     <div class="ES">  In 2018, I had a 5-week holiday, decided to travel to Spain.. started in Valencia and stayed for the full 5 weeks. 2 Months later I decided to have a one way ticket. The adventure began and still now , I live in this beautiful city.
-                        <img className='img-in' src="https://images.unsplash.com/photo-1595242797386-d1405ae6dc77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" width={360} height={200}></img></div>
+                    <video className='img-inn' src="vlc.mp4" width={320} height={320} controls muted controlsList="nodownload"></video></div>
                 </div>
 
                 <div class="China">

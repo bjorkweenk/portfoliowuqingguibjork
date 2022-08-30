@@ -1,8 +1,6 @@
-
-  
-  .item {
+ .item {
     width: 80%;
-    height: 1200px;
+    height: 1100px;
     margin: 50px auto;
     padding-top: 75px;
     background: #ccc;
@@ -11,8 +9,156 @@
     font-size: 3em;
     background: rgb(233,233,233);
     background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(18,116,108,1) 98%, rgba(18,116,108,1) 98%);
+    z-index: 1;
   }
 
-  div .App {
-    background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(247,247,240,0.5) 99%, rgba(245,244,222,0.5) 10%);
+
+  .line1 {
+    width: 100px;
+    height: 900px;
+    background-color: white;
+    margin-top: 100px;
   }
+
+  .line2 {
+    background-image: url(../../../public/china2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .line3 {
+    width: 720px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top : 400px; 
+    left: 300px;
+  }
+
+  .line-4 {
+    width: 220px;
+    height: 5px;
+    background-color: black; 
+    position: absolute; 
+    top : 180px;
+    left: 800px; 
+  }
+
+  .line-5 {
+   width: 5px;
+    height: 200px;
+    background-color: black; 
+    position: absolute; 
+    top : 400px;
+    left: 1000px;
+  }
+
+  .line-6 {
+    width: 5px;
+     height: 655px;
+     background-color: black; 
+     position: absolute; 
+     top : 175px;
+     left: 30px;
+   }
+
+   .line-7 {
+    background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(247,247,240,0.5) 99%, rgba(245,244,222,0.5) 10%);
+    height: 900px;
+    width: 800px;
+    position: absolute; 
+    top : 0 ; 
+    left: 1200px; 
+   }
+
+   .line-8 {
+    animation: index-item1 6s forwards;
+    animation-delay: calc(.1s * var(--i));
+    animation-iteration-count: 1;
+    height: 5px;
+    width: 700px;
+    position: absolute;
+    top : 950px; 
+    right: 300px ; 
+    background-color: black;
+   }
+
+   .line-9 {
+    animation: index-item2 6s forwards;
+    animation-delay: calc(.1s * var(--i));
+    animation-iteration-count: 1;
+    height: 500px;
+    width: 5px;
+    position: absolute;
+    top : 0px; 
+    right: 350px ; 
+    background-color: black;
+    transform: rotate(450deg);
+   }
+
+   @keyframes index-item1 {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+
+    }
+}
+
+@keyframes index-item2 {
+  from {
+      transform: translateY(0%);
+  }
+
+  to {
+      transform: translateY(100%);
+
+  }
+}
+
+  /*text */
+
+  .project {
+    font-family: 'Staatliches', sans-serif;
+    margin-top: 610px;
+    margin-left: -620px;
+    font-size: 40px;
+  }
+
+  .title-a {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    width: 900px;
+    height: 60px;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: -160px;
+
+  }
+
+  .outline  {
+      font-family: 'Staatliches', sans-serif;
+      -moz-text-fill-color: white;
+      -webkit-text-fill-color: white;
+      -moz-text-stroke-color: black;
+      -webkit-text-stroke-color: black;
+      -moz-text-stroke-width: 2px;  
+      -webkit-text-stroke-width: 2px;
+      font-size: 50px;
+      margin-top: 20vh;
+      margin-left: 10px;
+      }
+      
+  
