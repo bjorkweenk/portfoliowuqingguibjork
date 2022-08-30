@@ -397,6 +397,383 @@
     margin-top: 20vh;
     margin-left: 10px;
     }
+
+    @media only screen and (max-width: 768px){
+      .title-a {
+        font-size: 12px;
+        position: absolute;
+        top : 500px;  ; 
+        left: -50px; 
+        width: 220px;
+      }
+
+      .project {
+        display:none; 
+      }
+
+      .outline  {
+        font-family: 'Staatliches', sans-serif;
+        -moz-text-fill-color: white;
+        -webkit-text-fill-color: white;
+        -moz-text-stroke-color: black;
+        -webkit-text-stroke-color: black;
+        -moz-text-stroke-width: 2px;  
+        -webkit-text-stroke-width: 2px;
+        font-size: 20px;
+        margin-top: 20vh;
+        margin-left: 10px;
+        }
+  
+  
+    .outline1  {
+      font-size: 20px;
+      font-family: 'Staatliches', sans-serif;
+      -moz-text-fill-color: white;
+      -webkit-text-fill-color: white;
+      -moz-text-stroke-color: black;
+      -webkit-text-stroke-color: black;
+      -moz-text-stroke-width: 2px;  
+      -webkit-text-stroke-width: 2px;
+      margin-top: 20vh;
+      margin-left: 10px;
+      }
+
+      .item {
+        width: 85%;
+        height: 410px;
+        margin: 50px auto;
+        text-align: center;
+        font-size: 15px;
+        background: rgb(233,233,233);
+        background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(18,116,108,1) 98%, rgba(18,116,108,1) 98%);
+        z-index: 1;
+      }
+
+      .fa-brands {
+        width: 20px;
+        height: 20px;
+      }
     
+      .fa-brands1 {
+        margin-left: 10px;
+      }
+
+      i {
+        margin : 1px; 
+      }
+
+      .line1 {
+        width: 10px;
+        height: 80px;
+  
+        margin-top: 10px;
+      width: 2px;
+      height: 80px;
+      background-color: white;
+      position: absolute;
+      top : 400px; 
+      left: 300px;
+    }
+
+    .line3 {
+      width: 8px;
+      height: 100px;
+      background-color: rgb(156, 156, 14);
+      position: absolute;
+      top : 40px; 
+      left: 3px;
+    }
+  
+    .line-4 {
+      width: 22px;
+      height: 5px;
+      background-color: black; 
+      position: absolute; 
+      top : 18px;
+      left: 80px; 
+    }
+  
+    .line-5 {
+     width: 5px;
+      height: 200px;
+      background-color: black; 
+      position: absolute; 
+      top : 40px;
+      left: 10px;
+    }
+
+      .line-6 {
+        width: 5px;
+         height: 65px;
+         background-color: black; 
+         position: absolute; 
+         top : 17px;
+         left: 30px;
+       }
+    
+       .line-7 {
+        background: linear-gradient(90deg, rgba(233,233,233,0.30155812324929976) 0%, rgba(247,247,240,0.5) 99%, rgba(245,244,222,0.5) 10%);
+        height:200px;
+        width: 300px;
+        position: absolute; 
+        top : 10px ; 
+        left: 20px; 
+        margin-top: 10px;
+        font-size: 12px;
+       }
+    
+       .line-8 {
+        animation: index-item1 6s forwards;
+        animation-delay: calc(.1s * var(--i));
+        animation-iteration-count: 1;
+        height: 5px;
+        width: 70px;
+        position: absolute;
+        top : 9px; 
+        right: 3px ; 
+        background-color: black;
+       }
+    
+       .line-9 {
+        animation: index-item2 6s forwards;
+        animation-delay: calc(.1s * var(--i));
+        animation-iteration-count: 1;
+        height: 50px;
+        width: 5px;
+        position: absolute;
+        top : 0px; 
+        right: 3px ; 
+        background-color: black;
+        transform: rotate(450deg);
+       }
+    
+       @keyframes index-item1 {
+        from {
+            transform: translateX(10%);
+        }
+    
+        to {
+            transform: translateX(0%);
+    
+        }
+    }
+    
+    @keyframes index-item2 {
+      from {
+          transform: translateY(0%);
+      }
+    
+      to {
+          transform: translateY(100%);
+    
+      }
+    }
+    
+
+      .link1 {
+        padding-top: 28px;
+      }
+
+      .link:hover {
+        color: black;
+        background-color: white;
+      }
+
+  .txt {
+    font-size: 15px;
+  }
+  /* more*/
+  .more1 {
+    display: none;
+  }
+
+  .more {
+    display: none;
+  }
+
+
+  .more {
+    background-color: transparent;
+    border:5px solid black; 
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 47px;
+    left: 5px;
+  }
+
+  /*images*/
+  .line2-course {
+    background-image: url(../../../public/iron.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .line2-susy {
+    background-image: url(../../../public/susy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .line2-fh {
+    background-image: url(../../../public/foodhunters1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+
+  .line2-sh {
+    background-image: url(../../../public/sharelicious1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+
+  .line2-brn {
+    background-image: url(../../../public/brainnest1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .line2-brn1 {
+    background-image: url(../../../public/brainnestweekk2.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .line2-portfolio {
+    background-image: url(../../../../portfolio.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .line2-mc {
+    background-image: url(../../../../mountainclimbers.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .line2-sports {
+    background-image: url(../../../../sport.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .line2-waagh {
+    background-image: url(../../../../waagh.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .line2-sintlucas {
+    background-image: url(../../../../sintlucas.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top : 230px ; 
+    left: 60px; 
+    z-index: 2;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+
+
+
+    }
       
   

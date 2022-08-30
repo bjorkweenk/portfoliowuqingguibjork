@@ -258,7 +258,7 @@ export default function Work() {
                         <i class="fa-brands fa-css3"></i>
                         <i class="fa-brands fa-html5"></i>
                         <i class="fa-brands fa-react"></i>
-                        <h2 className='link'> Responsive : Dekstop </h2>
+                        <h2 className='link'> Responsive : Dekstop & Mobile </h2>
                         <a className='link' href="https://wuqingguibjork.herokuapp.com/" target="_blank"><h2 className='link'> Live Demo</h2></a>
                         <a className='link' href="https://github.com/bjorkweenk/portfoliowuqingguibjork" target="_blank"><h2 className='link'> Github</h2></a>
                     </div>
