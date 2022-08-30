@@ -51,7 +51,9 @@ export default function About() {
 
             <p className='intro-work'>
                 " After working in the hospitality sector, I have decided to explore the wonderful world called Web Development. I am loving it!
-                During Covid19 and being stuck at my house, I started following different webinars. When I followed the free webinar of SheCodes, I was sold. From that moment I knew I wanted to continue with my journey of coding."</p>
+                During Covid19 and being stuck at my house, I started following different webinars. When I followed the free webinar of SheCodes, I was sold. From that moment I knew I wanted to continue with my journey of coding."
+                <br></br>
+                <br></br> <i class="fa-solid fa-arrow-left-long"></i> Click on the grey spots on the world map to get to know me better.</p>
 
 
 
