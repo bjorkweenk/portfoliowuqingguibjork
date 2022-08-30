@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.737464f1.css",
+    "main.js": "/static/js/main.62f55377.js",
+    "static/media/portfolio.png": "/static/media/portfolio.d3132472f376a06636fc.png",
+    "static/media/foodhunters1.png": "/static/media/foodhunters1.aa84d58daa60323944c8.png",
+    "static/media/brainnestweekk2.png": "/static/media/brainnestweekk2.7d2ae710f674d8b3ea3b.png",
+    "static/media/china2.jpg": "/static/media/china2.a486443bbbffdb5c2127.jpg",
+    "static/media/sharelicious1.png": "/static/media/sharelicious1.234c8515cdc497065388.png",
+    "static/media/iron.png": "/static/media/iron.7d9ece384563b2e8d2c3.png",
+    "static/media/mountainclimbers.png": "/static/media/mountainclimbers.b33ff9a813f0b083b2cf.png",
+    "static/media/brainnest1.png": "/static/media/brainnest1.c5c8fb2a4f377b4d590d.png",
+    "static/media/sport.png": "/static/media/sport.70ad884473e322d257b1.png",
+    "static/media/sintlucas.png": "/static/media/sintlucas.bd5b3839717989103cd0.png",
+    "static/media/waagh.png": "/static/media/waagh.c90aa28ab85caf35ade8.png",
+    "static/media/susy.png": "/static/media/susy.3f185bae90caaf1ad1e7.png",
+    "index.html": "/index.html",
+    "main.737464f1.css.map": "/static/css/main.737464f1.css.map",
+    "main.62f55377.js.map": "/static/js/main.62f55377.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.737464f1.css",
+    "static/js/main.62f55377.js"
+  ]
+}
