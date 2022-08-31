@@ -1,0 +1,592 @@
+/* image*/
+
+.image-name {
+  display: flex;
+  flex-direction: row;
+  padding: 20;
+  background: rgb(233, 233, 233);
+  background: linear-gradient(90deg, rgba(233, 233, 233, 0.30155812324929976) 0%, rgba(18, 116, 108, 0.5) 84%, rgb(144, 198, 193, 0.5) 99%);
+}
+
+.image-name {
+  width: 100%;
+  height: 1400px;
+}
+
+.image1 {
+  background-image: url("../../../public/china2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 200px;
+  object-fit: fill;
+}
+
+#name {
+  color: black;
+  transform: rotate(-90deg);
+  margin-top: 490px;
+  font-size: 50px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#name2 {
+  position: absolute;
+  top: 790px;
+  left: 78px;
+  font-size: 50px;
+}
+
+#intro {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 30px;
+  width: 100%;
+  z-index: 2;
+}
+
+.square {
+  margin-top: 300px;
+}
+
+/* world */
+#world {
+  position: absolute;
+  top: 400px;
+  left: 350px;
+  width: 1000px;
+  height: 700px;
+  z-index: 3;
+}
+
+.NL {
+  display: none;
+  background-color: #12746c;
+  width: 400px;
+  height: 440px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  padding: 20px;
+  z-index: 5;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.Netherlands:hover .NL {
+  display: block;
+  cursor: pointer;
+
+}
+
+.Netherlands {
+  position: absolute;
+  top: 540px;
+  left: 790px;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+
+/* spain */
+.ES {
+  display: none;
+  background-color: #12746c;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.Spain:hover .ES {
+  display: block;
+  cursor: pointer;
+
+}
+
+.Spain {
+  position: absolute;
+  top: 590px;
+  left: 750px;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+/* china */
+
+.CH {
+  display: none;
+  background-color: #12746c;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: 20px;
+  padding: 20px;
+  z-index: 5;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.China:hover .CH {
+  display: block;
+  cursor: pointer;
+}
+
+.China {
+  position: absolute;
+  top: 610px;
+  left: 1055px;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+.img-in {
+  margin-top: 10px;
+  border-radius: 20%;
+  align-items: center;
+  margin-left: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.img-inn {
+  margin-top: 10px;
+  border-radius: 20%;
+  align-items: center;
+  margin-left: 35px;
+}
+
+#airplane {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  animation: airplane 10s linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  cursor: pointer;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+
+@keyframes airplane {
+  10% {
+    top: 10px;
+    z-index: 5;
+
+  }
+
+  20% {
+    top: 30px;
+    left: 50px;
+    z-index: 1;
+
+
+  }
+
+  30% {
+    top: 80px;
+    left: 70px;
+    z-index: 1;
+
+
+  }
+
+  40% {
+    top: 80px;
+    left: 90px;
+
+
+  }
+
+  50% {
+    top: 90px;
+    left: 150px;
+
+  }
+
+  60% {
+    top: 110px;
+    left: 200px;
+
+
+  }
+
+  70% {
+    top: 120px;
+    left: 250px;
+
+
+  }
+
+  80% {
+    top: 130px;
+    left: 350px;
+
+
+  }
+
+  90% {
+    top: 140px;
+    left: 500px;
+
+
+  }
+
+  100% {
+    top: 150px;
+    left: 1050px;
+    transform: rotateX(20deg);
+    opacity: 1.0;
+    height: 300px;
+    width: 300px;
+  }
+
+}
+
+.intro-work {
+  width: 800px;
+  height: 200px;
+  position: absolute;
+  top: 800px;
+  left: 1800px;
+  z-index: 6;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* image*/
+
+  .image-name {
+    display: flex;
+    flex-direction: row;
+    padding: 20;
+    background: rgb(233, 233, 233);
+    background: linear-gradient(90deg, rgba(233, 233, 233, 0.30155812324929976) 0%, rgba(18, 116, 108, 0.5) 84%, rgb(144, 198, 193, 0.5) 99%);
+  }
+
+  .image-name {
+    width: 100%;
+    height: 1400px;
+  }
+
+  .image1 {
+    background-image: url("../../../public/china2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50px;
+    object-fit: fill;
+  }
+
+  #name {
+    color: black;
+    transform: rotate(-90deg);
+    margin-top: 490px;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #name2 {
+    position: absolute;
+    top: 490px;
+    left: -35px;
+    font-size: 20px;
+    transform: rotate(-90deg);
+  }
+
+  #intro {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 15px;
+    font-size: 15px;
+    width: 100%;
+    z-index: 4;
+  }
+
+  .square {
+    margin-top: 200px;
+  }
+
+  /* world */
+  #world {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    z-index: 5;
+  }
+
+  .NL {
+    display: none;
+    background-color: #12746c;
+    width: 100px;
+    height: 240px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    padding: 20px;
+    z-index: 5;
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .Netherlands:hover .NL {
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .Netherlands {
+    position: absolute;
+    top: 380px;
+    left: 160px;
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+
+  /* spain */
+  .ES {
+    display: none;
+    background-color: #12746c;
+    width: 160px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 10px;
+    z-index: 6;
+    border-radius: 10px;
+  }
+
+  .Spain:hover .ES {
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .Spain {
+    position: absolute;
+    top: 400px;
+    left: 145px;
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+  /* china */
+
+  .CH {
+    display: none;
+    background-color: #12746c;
+    width: 80px;
+    height: 220px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 10px;
+    z-index: 5;
+    color: white;
+    border-radius: 10px;
+  }
+
+
+  .China:hover .CH {
+    display: block;
+    cursor: pointer;
+  }
+
+  .China {
+    position: absolute;
+    top: 410px;
+    left: 225px;
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 50%;
+    z-index: 5; 
+  }
+
+  .img-in {
+    margin-top: 30px;
+    border-radius: 20%;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  video.img-inn {
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 130px; 
+    left: -20px;
+  }
+
+  #airplane {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    animation: airplane 10s linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    cursor: pointer;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+
+
+  @keyframes airplane {
+    10% {
+      top: 10px;
+      z-index: 5;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+    }
+
+    20% {
+      top: 30px;
+      left: 50px;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+
+    }
+
+    30% {
+      top: 80px;
+      left: 70px;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+
+    }
+
+    40% {
+      top: 80px;
+      left: 90px;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+
+    }
+
+    50% {
+      top: 90px;
+      left: 15px;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+    }
+
+    60% {
+      top: 110px;
+      left: 20px;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+
+    }
+
+    70% {
+      top: 20px;
+      left: 50px;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+
+    }
+
+    80% {
+      top: 20px;
+      left: 50px;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+
+    }
+
+    90% {
+      top: 20px;
+      left: 50px;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+
+
+    }
+
+    100% {
+      top: 65px;
+      left: 130px;
+      transform: rotateX(20deg);
+      opacity: 1.0;
+      height: 60px;
+      width: 60px;
+      z-index:1; 
+    }
+
+  }
+
+  .intro-work {
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    left: 80px;
+    z-index: 4;
+    font-size: 15px;
+  }
+
+  .fa-solid {
+    transform: rotate(90deg);
+  }
+
+}

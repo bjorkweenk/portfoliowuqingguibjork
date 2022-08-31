@@ -1,0 +1,267 @@
+form {
+    background-color: #12746ca6;
+    color: black;
+    height: 1000px;
+    width: 1000px;
+    margin-top: 300px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    position: absolute;
+    top: 50px;
+    box-shadow: 10px 10px 10px #000;
+
+}
+
+input[type="text"] {
+    background-color: #f4f4ff;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    border-style: none;
+    width: 680px;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+input[type="email"] {
+    background-color: #f4f4ff;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    border-style: none;
+    width: 680px;
+    height: 60px;
+    padding: 10px;
+    padding-left: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+input[type="submit"] {
+    background-color: #f4f4ff;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    border-style: none;
+    width: 100px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+input[type="submit"]:hover {
+    background-color: pink;
+    color: white;
+    cursor: url("../../../public/sm-logo.png"), default;
+}
+
+
+label {
+    font-size: 40px;
+    font-family: 'Staatliches';
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.coffee {
+    font-size: 60px;
+    color: pink;
+    padding-bottom: 20px;
+    text-shadow: 5px 5px 5px black;
+
+
+}
+
+textarea {
+    background-color: #f4f4ff;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    border-style: none;
+    width: 680px;
+    height: 300px;
+    padding: 10px;
+    padding-left: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+#body-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    height: 1400px;
+}
+
+.image11 {
+    background-image: url("../../../public/china2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 200px;
+    object-fit: fill;
+    box-shadow: 7px 0 5px -2px rgba(2, 0, 0, 0.249);
+}
+
+@media only screen and (max-width: 768px) {
+    form {
+        background-color: #12746ca6;
+        color: black;
+        height: 350px;
+        width: 300px;
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+        position: absolute;
+        top: 50px;
+    }
+
+    input[type="text"] {
+        background-color: #f4f4ff;
+        color: black;
+        font-style: italic;
+        font-size: 10px;
+        border-style: none;
+        width: 140px;
+        height: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 10px;
+        padding-left: 40px;
+    }
+
+    input[type="email"] {
+        background-color: #f4f4ff;
+        color: black;
+        font-style: italic;
+        font-size: 10px;
+        border-style: none;
+        width: 140px;
+        height: 20px;
+        padding: 10px;
+        padding-left: 40px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+
+    input[type="submit"] {
+        background-color: #f4f4ff;
+        color: black;
+        font-style: italic;
+        font-size: 10px;
+        border-style: none;
+        width: 50px;
+        height: 30px;
+        padding: 10px;
+        margin-top: 30px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: pink;
+        color: white;
+        cursor: url("../../../public/sm-logo.png"), default;
+    }
+
+
+    label {
+        font-size: 15px;
+        font-family: 'Staatliches';
+        color: black;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    .coffee {
+        font-size: 20px;
+        color: pink;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    textarea {
+        background-color: #f4f4ff;
+        color: black;
+        font-style: italic;
+        font-size: 10px;
+        border-style: none;
+        width: 120px;
+        height: 20px;
+        padding: 20px;
+        padding-left: 40px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #body-contact {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+        height: 700px;
+    }
+
+    /* image*/
+    .image11 {
+        background-image: url("../../../public/china2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 200px;
+        object-fit: fill;
+    }
+}
